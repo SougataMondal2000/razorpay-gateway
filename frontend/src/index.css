@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Mulish', sans-serif;
+  background-color: gainsboro;
+}
+
+@media (max-width: 411px) {
+    body {
+      width: 411px;
+      margin: 0 auto;
+    }
+  }
+  
+  .content {
+    padding-top: 50px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 411px;
+    height: 824px;
+    overflow: hidden;
+    background-color: whitesmoke;
+  }
+
+  .text-esm {
+    font-size: 0.60rem; 
+  }
+
